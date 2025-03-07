@@ -1,0 +1,31 @@
+{
+  "name": "tmlink",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node api/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yoo013/utm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Yoo013/utm/issues"
+  },
+  "homepage": "https://github.com/Yoo013/utm#readme",
+  "description": "",
+  "dependencies": {
+    "chromedriver": "^134.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "playwright": "^1.50.1",
+    "puppeteer": "^24.4.0",
+    "selenium-webdriver": "^4.29.0"
+  }
+}
